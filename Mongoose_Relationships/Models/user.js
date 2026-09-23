@@ -14,7 +14,7 @@ const userSchema = new mongoose.Schema({
     last: String,
     addresses: [
         {
-            _id: { id: false },
+            _id: { _id: false },
             street: String,
             city: String,
             state: String,
