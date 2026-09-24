@@ -92,7 +92,6 @@ app.get('/products/new', (req, res) => {
     res.send(`<h1>⚠️ ATTENTION, WRONG ROUTE! ⚠️</h1>
     <h1>In this section, do <em>not</em> use the routes <em>starting</em> with "/products".</h1>
     <h1>Instead, you will use the routes starting with "<a href="/farms" target="_blank">/farms</a>".</h1>
-    <h1>Therefore, please continue watching the lecture videos in this section and following Colt's exact steps.</h1>
     <h1>For reference, these are the correct steps to create a farm and its products in this section:</h1>
     <ol>
         <li>Open the <a href="/farms" target="_blank">/farms</a> route and create (add) a new farm.</li>
