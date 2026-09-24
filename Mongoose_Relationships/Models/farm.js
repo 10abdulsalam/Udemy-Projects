@@ -1,7 +1,8 @@
 const mongoose = require('mongoose');
+
 const { Schema } = mongoose;
 
-mongoose.connect('mongodb://localhost:27017/relationshipDemo', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb://localhost:27017/relationshipDemo')
     .then(() => {
         console.log("MONGO CONNECTION OPEN!!!")
     })
